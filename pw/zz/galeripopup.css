@@ -1,0 +1,133 @@
+.wrap{
+	background-color: #6495ED;
+	background-size: cover;
+	width: 1333px;
+	height: 130px;
+
+}
+.menu{
+	text-align: center;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.wrap .menu{
+
+	margin-top: -150px;
+	margin-left:700px;
+	position: absolute;
+	font-size: 25px;
+}
+
+
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+/*akhir menu*/
+
+.clear{
+	clear: both;
+}
+
+form {
+    width:500px;
+    margin:50px auto;
+}
+.search {
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #53bd84;
+    background-color:#53bd84;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+.body{
+
+	background-image: image(MUSIK-woww.png);
+	background-size: cover;
+	width: 2000px;
+	margin-top: -80px;
+	background-position: relative;
+
+}
+
+.wrap .body .border{
+
+    border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+
+
+
+
+}
+.wrap .body .border{
+
+    border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    }
+.wrap .body .content{
+	background: black;
+	float: left;
+	height: 100%;
+	width: 75%;
+
+}
+.wrap .footer{
+	background:#00FFFF;
+	width: 98,5%;
+	padding: 10px;
+	margin-top: -10px;
+	height: 200px;
+}
+
+.wrap .footer .icon{
+		background-image: footer.png;
+}
+
+p{
+	margin-left: 1130px;
+	margin-top: 30px;
+
+}
